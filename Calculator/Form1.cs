@@ -15,5 +15,11 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void btnCong_Click(object sender, EventArgs e)
+        {
+            txtkq.Text = txta.Text + txtb.Text;
+        }
+
     }
 }
