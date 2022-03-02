@@ -18,7 +18,10 @@ namespace Calculator
 
         private void btnCong_Click(object sender, EventArgs e)
         {
-            txtkq.Text = txta.Text + txtb.Text;
+            double a = double.Parse(txta.Text);
+            double b = double.Parse(txtb.Text);
+            double kq = a + b;
+            txtkq.Text = kq.ToString();
         }
 
     }
